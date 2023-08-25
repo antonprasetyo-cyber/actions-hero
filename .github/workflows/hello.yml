@@ -15,6 +15,8 @@ jobs:
       - name: Hello world
         run: echo Hello, world!
         shell: bash
+  build2:
+    runs-on: ubuntu-latest
     steps:
       - name: Goodbye
         run: echo "Goodbye"
