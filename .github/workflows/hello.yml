@@ -21,3 +21,9 @@ jobs:
       - name: Goodbye
         run: echo "Goodbye"
         shell: bash
+  jobs3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: selamat datang
+        run: echo "selamat datang"
+        shell: bash
